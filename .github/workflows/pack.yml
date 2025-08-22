@@ -6,9 +6,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Make the datapack
         uses: montudor/action-zip@v1
         with:
           args: zip -r pack.zip . -x ".vscode/*" ".gitignore" ".git/*"
+
+      - name: Upload the datapack
+        uses: actions/upload-artifact@v4
+        with:
+          name: pack.zip
+          path: pack.zip
