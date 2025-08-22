@@ -13,11 +13,11 @@
         "probability": 100.0,
         "results": [
           {
-            "count": 12,
+            "count": 2,
             "item": "chemlib:uranium"
           },
           {
-            "count": 2,
+            "count": 12,
             "item": "chemlib:fluorine"
           },
           {
