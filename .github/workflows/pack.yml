@@ -1,0 +1,14 @@
+name: Build the Datapack
+
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Make the dataack
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -r pack.zip . -x ".vscode/*" ".gitignore"
