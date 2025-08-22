@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Make the dataack
+      - name: Make the datapack
         uses: montudor/action-zip@v1
         with:
-          args: zip -r pack.zip . -x ".vscode/*" ".gitignore"
+          args: zip -r pack.zip . -x ".vscode/*" ".gitignore" ".git/*"
