@@ -18,5 +18,5 @@ jobs:
       - name: Upload the datapack
         uses: actions/upload-artifact@v4
         with:
-          name: pack.zip
+          name: pack
           path: pack.zip
