@@ -1,0 +1,21 @@
+{
+  "type": "alchemistry:combiner",
+  "group": "alchemistry:combiner",
+  "input": [
+    {
+      "count": 16,
+      "ingredient": {
+        "item": "chemlib:fluorine"
+      }
+    },
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "chemlib:calcium"
+      }
+    }
+  ],
+  "result": {
+    "item": "mekanism:fluorite_gem"
+  }
+}

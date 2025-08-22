@@ -1,0 +1,33 @@
+{
+  "type": "alchemistry:dissolver",
+  "group": "alchemistry:dissolver",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "gtceu:uranium_hexafluoride_bucket"
+    }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 100.0,
+        "results": [
+          {
+            "count": 12,
+            "item": "chemlib:uranium"
+          },
+          {
+            "count": 2,
+            "item": "chemlib:fluorine"
+          },
+          {
+            "count": 48,
+            "item": "chemlib:iron"
+          }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
+}

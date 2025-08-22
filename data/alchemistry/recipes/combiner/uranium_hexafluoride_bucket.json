@@ -1,0 +1,27 @@
+{
+  "type": "alchemistry:combiner",
+  "group": "alchemistry:combiner",
+  "input": [
+    {
+      "count": 12,
+      "ingredient": {
+        "item": "chemlib:uranium"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "chemlib:fluorine"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:bucket"
+      }
+    }
+  ],
+  "result": {
+    "item": "gtceu:uranium_hexafluoride_bucket"
+  }
+}
